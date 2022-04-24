@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Balises META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#B4C8D9">
+    <meta name="author" content="Nathan Jourdain">
+    <meta name="description" content="Nathan Jourdain, étudiant et développeur web frontend. Découvrez moi à travers mon portfolio et mes projets réalisés.">
+    <meta name="keywords" content="developpeur web, frontend, portfolio, Nathan Jourdain">
+    <meta name="copyright" content="Nathan Jourdain">
+    <meta name="robots" content="index"/>
+
+
+    <title>Nathan Jourdain - Développeur Frontend - Portfolio</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- Javascript -->
+    <script src="javascript/script.js" defer></script>
+    <script src="javascript/slidersProjectsImages.js" defer></script>
+
+</head>
+<body>
+    <div class="top-bar-scroll" id="#top"></div>
+    <header>
+        <nav>
+            <p><span class="accent">Portfolio</span></p>
+            <ul>
+                <li><a href="#top">Accueil</a></li>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+        </nav>
+    
+        <section class="hero">
+            <div class="left">
+                <h1>
+                    <span>Nathan Jourdain</span>
+                    <span>Développeur Frontend</span>
+                </h1>
+                <a href="#presentation">
+                    Me découvrir 
+                    <i class="fa-solid fa-circle-chevron-right"></i></a>
+            </div>
+            <img src="https://source.unsplash.com/random/person" alt="Photo de profil" role="img">
+        </section>
+    </header>
+
+
+    <main>
+        <section id="presentation" class="presentation">
+            <h2 class="accent">Qui suis-je ?</h2>
+            <p>
+                Nathan Jourdain, étudiant à l’institut universitaire de Saint-Lô en formation <em>Bachelor Universitaire Technologique Métiers du Multimédia et de l’Internet</em>.<br>
+                Je suis un passionné de <em>développement Frontend</em> et j’étudie dans le but d’en faire mon métier à l’avenir.
+            </p>
+            <p>
+                Avant cette formation, j’ai obtenu un <em>baccalauréat technologique, mention bien</em>, en sciences de l’industrie et du développement durable (STI2D) avec comme option système d’information et numérique.
+            </p>
+            <p>
+                En parallèle de mes études, j’apprends le monde de la programmation web en autodidacte grâce à des formations en lignes notamment sur <em><a href="https://www.udemy.com/" class="accent" target="blank" title="Ouvrir le site Udemy dans un nouvel onglet">la plateforme Udemy <i class="fa-solid fa-up-right-from-square"></i></a></em>.
+            </p>
+
+        </section>   
+        
+        <section id="projets" class="projets">
+            <h2 class="accent">Mes projets réalisés</h2>
+            <div class="container">
+                <div class="projet" style="--bg-image: url('/assets/images/projet1_1.jpeg');" data-project-id="0">
+                    <p>Site vitrine statique</p>
+                </div>
+                <div class="projet" style="--bg-image: url('/assets/images/projet2_1.png');" data-project-id="1">
+                    <p>Application web de quiz</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="competences">
+            <h2 class="accent">Mes compétences</h2>
+            <ul>
+                <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+                <li><abbr title="Cascading Style Sheet">CSS</abbr></li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Frameworks et librairies : TailwindCSS, SvelteJS</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="accent">Me contacter</h2>
+            <p>Pour toutes questions ou demande n'hésitez pas à me contacter par le réseau que vous souhaitez</p>
+            <address>
+                <a href="tel:+33780011983">
+                    <i class="fa-solid fa-square-phone-flip"></i>
+                    <span class="accent">07 80 01 19 83</span>
+                </a>
+                <a href="mailto:nathan.jourdain50700@gmail.com">
+                    <i class="fa-solid fa-square-envelope"></i>
+                    <span class="accent">nathan.jourdain50700@gmail.com</span>
+                </a>
+                <a href="https://github.com/NathanJourdain" target="blank">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="accent">GitHub</span>
+                </a>
+                <a href="https://codepen.io/nathanjourdain" target="blank">
+                    <i class="fa-brands fa-codepen"></i>
+                    <span class="accent">Codepen</span>
+                </a>
+                <a href="https://instagram.com/nathan__jrd" target="blank">
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <span class="accent">Instagram</span>
+                </a>
+                
+            </address>
+        </section>
+
+        <section id="cv" class="cv">
+            <h2 class="accent">Curriculum vitae</h2>
+            <p>Si vous êtes intérrésé par mon profil vous pouvez consulter ou télécharger mon cv en cliquant sur les boutons ci-dessous.</p>
+            <div class="links">
+                <a href="/assets/cv_nathan_jourdain.pdf" target="blank">
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                    <span class="accent">Voir mon cv</span>
+                </a>
+                <a href="/assets/cv_nathan_jourdain.pdf" download="CV Nathan Jourdain Développeur Frontend.pdf">
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                    <span class="accent">Télécharger mon cv</span>
+                </a>
+            </div>
+        </section>
+
+        <a href="#top" class="to-top" title="Revenir en haut de la page">
+            <i class="fa-solid fa-circle-chevron-up"></i>
+        </a>
+
+    </main>
+
+    <footer>
+        <p>&copy; Design et réalisation par Nathan Jourdain</p>
+    </footer>
+
+
+    <aside class="slider-project">
+        <div class="overlay"></div>
+        <div class="container">
+            <button role="button" class="btn previous" aria-label="Image précédente" title="Image précédente">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+            </button>
+            <button role="button" class="btn next" aria-label="Image suivante" title="Image suivante">
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </button>
+        </div>
+        <button role="button" class="close" aria-label="Fermer le slider" title="Fermer le slider">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </aside>
+
+</body>
+</html>
